@@ -9,6 +9,7 @@ set :repo_url, 'https://github.com/VoroninNick/capistrano.git'
 
 # Default deploy_to directory is /var/www/my_app
 set :deploy_to, '/home/applications/develop/capistrano'
+set :rvm_ruby_version, '2.2.0'
 
 # Default value for :scm is :git
 # set :scm, :git
