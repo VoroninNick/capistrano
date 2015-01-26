@@ -37,4 +37,5 @@ gem 'capistrano-rails', group: :development
 gem 'capistrano-rvm'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
+gem 'globalize'
+gem 'rails_admin_globalize_field', github: 'VoroninNick/rails_admin_globalize_field', branch: 'allow-current-locale'
